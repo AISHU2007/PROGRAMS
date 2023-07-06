@@ -62,3 +62,38 @@ int main()
 
 	return 0;
 }
+
+
+
+Algorithm of the Linear Search Algorithm:
+
+Linear Search ( Array Arr, Value a ) // Arr is the name of the array, and a is the searched element.
+
+Step 1: Set i to 0 // i is the index of an array which starts from 0
+
+Step 2: ifi > n then go to step 7 // n is the number of elements in array
+
+Step 3: if Arr[i] = a then go to step 6
+
+Step 4: Set i to i + 1
+
+Step 5: Goto step 2
+
+Step 6: Print element a found at index i and go to step 8
+
+Step 7: Print element not found
+
+Step 8: Exit
+
+
+
+Algorithm for Insertion Search Algorithm:
+
+Step 1 − If it is the first element, it is already sorted. return 1;
+Step 2 − Pick next element
+Step 3 − Compare with all elements in the sorted sub-list
+Step 4 − Shift all the elements in the sorted sub-list that is greater than the 
+         value to be sorted
+Step 5 − Insert the value
+Step 6 − Repeat until list is sorted
+
